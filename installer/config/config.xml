@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Installer>
+    <Name>WaveToAmiga</Name>
+    <Version>1.0.0</Version>
+    <Title>WaveToAmiga – Setup</Title>
+    <Publisher>Michael Bergmann</Publisher>
+    <ProductUrl>https://portfolio.mbergmann-sh.de</ProductUrl>
+    <InstallerApplicationIcon>installericon</InstallerApplicationIcon>
+    <InstallerWindowIcon>windowicon.png</InstallerWindowIcon>
+    <Logo>logo.png</Logo>
+    <WizardStyle>Modern</WizardStyle>
+    <StartMenuDir>WaveToAmiga</StartMenuDir>
+    <TargetDir>C:/WaveToAmiga</TargetDir>
+    <AdminTargetDir>C:/WaveToAmiga</AdminTargetDir>
+    <MaintenanceToolName>WaveToAmiga-Deinstallieren</MaintenanceToolName>
+    <AllowNonAsciiCharacters>true</AllowNonAsciiCharacters>
+    <RemoveTargetDir>true</RemoveTargetDir>
+    <ControlScript>controller.qs</ControlScript>
+</Installer>

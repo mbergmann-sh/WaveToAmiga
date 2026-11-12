@@ -1,0 +1,17 @@
+# Build-Ausgaben
+build/
+dist/
+*.pro.user*
+*.autosave
+.qmake.stash
+.qmake.cache
+Makefile*
+*.o
+*.obj
+moc_*
+qrc_*
+ui_*
+# Installer-Nutzdaten werden von den Build-Skripten erzeugt
+installer/packages/*/data/*
+!installer/packages/*/data/.gitkeep
+installer/output/

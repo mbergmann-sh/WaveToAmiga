@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=WaveToAmiga
+GenericName=WAV to Amiga sound converter
+GenericName[de]=WAV-zu-Amiga-Sound-Konverter
+Comment=Convert WAV files to Amiga sound formats (8SVX, AIFF, 16SV, MAUD)
+Comment[de]=WAV-Dateien in Amiga-Soundformate konvertieren
+Exec=WaveToAmiga %F
+Icon=WaveToAmiga
+Terminal=false
+Categories=AudioVideo;Audio;AudioVideoEditing;
+MimeType=audio/x-wav;audio/wav;audio/vnd.wave;
+StartupWMClass=WaveToAmiga

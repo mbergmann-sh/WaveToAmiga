@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package>
+    <DisplayName>WaveToAmiga</DisplayName>
+    <Description>WaveToAmiga – ein Tool zum Konvertieren von WAV-Dateien in gängige Amiga-Soundformate (8SVX, AIFF, 16SV, MAUD) – Programm und Qt-6-Bibliotheken</Description>
+    <Version>1.0.0</Version>
+    <ReleaseDate>2026-11-10</ReleaseDate>
+    <Default>true</Default>
+    <ForcedInstallation>true</ForcedInstallation>
+    <Licenses>
+        <License name="MIT-Lizenz (© Michael Bergmann 2026)" file="license.txt" />
+    </Licenses>
+    <Script>installscript.qs</Script>
+</Package>
